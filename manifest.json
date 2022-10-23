@@ -1,0 +1,19 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Hejto",
+    "description": "Showing content from hejto.pl",
+    "developer_name": "trojakt",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.5
+    },
+    "preferences": [
+        {
+            "id": "hejto_kw",
+            "type": "keyword",
+            "name": "Hejto",
+            "description": "Hejto extension",
+            "default_value": "h"
+        }
+    ]
+}
